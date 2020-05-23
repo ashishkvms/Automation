@@ -1,0 +1,11 @@
+[logs/Android_SM20 INFO ] 2020-05-23 22:03:08.204 BaseTest:182 - log path: logs/Android_SM20
+[logs/Android_SM20 INFO ] 2020-05-23 22:03:21.270 BaseTest:204 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {appActivity=tv.accedo.wynk.android.airtel.activity.AirtelmainActivity, appPackage=tv.accedo.airtel.wynk, automationName=Appium, databaseEnabled=false, desired={platformName=android, appActivity=tv.accedo.wynk.android.airtel.activity.AirtelmainActivity, appPackage=tv.accedo.airtel.wynk, automationName=Appium, deviceName=SM20, systemPort=10000, udid=3201c353b10a16ef}, deviceApiLevel=29, deviceManufacturer=samsung, deviceModel=SM-M205F, deviceName=3201c353b10a16ef, deviceScreenDensity=480, deviceScreenSize=1080x2340, deviceUDID=3201c353b10a16ef, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=10, statBarHeight=85, systemPort=10000, takesScreenshot=true, udid=3201c353b10a16ef, viewportRect={left=0, top=85, width=1080, height=2170}, warnings={}, webStorageEnabled=false}
+[logs/Android_SM20 INFO ] 2020-05-23 22:03:24.662 RegisterUserTests:34 - 
+****** starting test:validateAppRegisteration******
+
+[logs/Android_SM20 INFO ] 2020-05-23 22:03:51.810 BaseTest:284 - video path: videos/Android_SM20/2020-05-23-22-03-08/RegisterUserTests/validateAppRegisteration.mp4
+[logs/Android_SM20 INFO ] 2020-05-23 22:03:53.915 HomePageTests:33 - 
+****** starting test:validateHomePage******
+
+[logs/Android_SM20 INFO ] 2020-05-23 22:04:54.683 BaseTest:491 - Retrieve the bottommost header title is : MOVIE TRAILERS
+[logs/Android_SM20 INFO ] 2020-05-23 22:05:08.079 BaseTest:284 - video path: videos/Android_SM20/2020-05-23-22-03-08/HomePageTests/validateHomePage.mp4

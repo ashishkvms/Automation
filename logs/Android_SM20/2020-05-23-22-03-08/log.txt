@@ -1,0 +1,1 @@
+18:Android:SM20:com.app.BaseTest:reading property file at path config.properties

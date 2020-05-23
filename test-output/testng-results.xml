@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120491" started-at="2020-05-23T16:33:08Z" finished-at="2020-05-23T16:35:08Z">
+    <groups>
+    </groups>
+    <test name="Samsung M 20" duration-ms="120491" started-at="2020-05-23T16:33:08Z" finished-at="2020-05-23T16:35:08Z">
+      <class name="com.app.tests.HomePageTests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7]" name="beforeClass" is-config="true" duration-ms="1418" started-at="2020-05-23T16:33:51Z" finished-at="2020-05-23T16:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="685" started-at="2020-05-23T16:33:53Z" finished-at="2020-05-23T16:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-23T16:33:53Z" finished-at="2020-05-23T16:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.tests.HomePageTests.validateHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7]" name="validateHomePage" duration-ms="60769" started-at="2020-05-23T16:33:53Z" description="Verify user is on homepage and get the bottom most header title" finished-at="2020-05-23T16:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7]" name="afterMethod" is-config="true" duration-ms="13398" started-at="2020-05-23T16:34:54Z" finished-at="2020-05-23T16:35:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateHomePage status=SUCCESS method=HomePageTests.validateHomePage()[pri:0, instance:com.app.tests.HomePageTests@1d8d30f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.app.tests.HomePageTests -->
+      <class name="com.app.tests.RegisterUserTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="beforeSuite" is-config="true" duration-ms="3080" started-at="2020-05-23T16:33:05Z" finished-at="2020-05-23T16:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="beforeTest" is-config="true" duration-ms="13077" started-at="2020-05-23T16:33:08Z" finished-at="2020-05-23T16:33:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3201c353b10a16ef]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SM20]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="beforeClass" is-config="true" duration-ms="2558" started-at="2020-05-23T16:33:21Z" finished-at="2020-05-23T16:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="818" started-at="2020-05-23T16:33:23Z" finished-at="2020-05-23T16:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="168" started-at="2020-05-23T16:33:24Z" finished-at="2020-05-23T16:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.tests.RegisterUserTests.validateAppRegisteration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAppRegisteration()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="validateAppRegisteration" duration-ms="25167" started-at="2020-05-23T16:33:24Z" description="Register/Login into the app" finished-at="2020-05-23T16:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppRegisteration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-23T16:33:50Z" finished-at="2020-05-23T16:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="afterMethod" is-config="true" duration-ms="1805" started-at="2020-05-23T16:33:50Z" finished-at="2020-05-23T16:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAppRegisteration status=SUCCESS method=RegisterUserTests.validateAppRegisteration()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-23T16:33:51Z" finished-at="2020-05-23T16:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="afterTest" is-config="true" duration-ms="600" started-at="2020-05-23T16:35:08Z" finished-at="2020-05-23T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.app.tests.RegisterUserTests@32d2fa64]" name="afterSuite" is-config="true" duration-ms="53" started-at="2020-05-23T16:35:09Z" finished-at="2020-05-23T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.app.tests.RegisterUserTests -->
+    </test> <!-- Samsung M 20 -->
+  </suite> <!-- Suite -->
+</testng-results>
