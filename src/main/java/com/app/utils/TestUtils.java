@@ -20,7 +20,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.app.BaseTest;
+import com.app.common.BaseTest;
 
 public class TestUtils {
 	public static final long WAIT = 10;

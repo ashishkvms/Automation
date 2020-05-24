@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.app.BaseTest;
+import com.app.common.BaseTest;
 import com.app.pages.HomePage;
 import com.app.pages.RegisterUserPage;
 import com.app.utils.TestUtils;
@@ -22,10 +22,11 @@ public class HomePageTests extends BaseTest{
 	
 	  @BeforeClass
 	  public void beforeClass() throws Exception {
+		  getDriver().launchApp();
 		  homePage = new HomePage();
 		  registerUser = new RegisterUserPage();
 		  loginUsers= readTestData();
-		  registerUser.userRegisteration(loginUsers.getString("mobileNo"));
+		  registerUser.userRegisteration(loginUsers.getString("mobileNo"),loginUsers.getString("otp"));
 	  }
 
 	  @BeforeMethod

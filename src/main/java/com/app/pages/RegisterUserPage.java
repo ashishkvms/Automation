@@ -2,7 +2,7 @@ package com.app.pages;
 
 import java.util.List;
 
-import com.app.BaseTest;
+import com.app.common.BaseTest;
 import com.app.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
@@ -23,13 +23,29 @@ public class RegisterUserPage extends BaseTest {
 
 	@AndroidFindBy(id = "btn_next")
 	private MobileElement continueBtn;
+	
+	@AndroidFindBy(id = "edit_pin_code")
+	private MobileElement otpTxtBox;
+	
+	@AndroidFindBy(id = "verify_btn")
+	private MobileElement verifyBtn;
 
 	@AndroidFindBy(id = "language_category_selector_image_view")
 	private List<MobileElement> selectLanguageCheckBox;
 
 	@AndroidFindBy(id = "confirmBtn")
 	private MobileElement confirmBtn;
-
+	
+	@AndroidFindBy(id = "tv_bottom_tab_text")
+	private List<MobileElement> bottomTabs;
+	
+	@AndroidFindBy(id = "profileImage")
+	private MobileElement userImg;
+	
+	@AndroidFindBy(id = "edit_profile")
+	private MobileElement loggedInNumber;
+	
+	
 
 
 	public void allowPermissions() {
@@ -54,7 +70,16 @@ public class RegisterUserPage extends BaseTest {
 	public void clickOnContinueBtn() {
 		click(continueBtn);
 	}
+	
+	public void enterOtp(String otp) {
+		clear(otpTxtBox);
+		sendKeys(otpTxtBox,otp);
+	}
 
+	public void clickOnVerifyBtn() {
+		click(verifyBtn);
+	}
+	
 	public void selectLanguages() {
 		waitForElementToBeVisible(confirmBtn);
 		click(selectLanguageCheckBox.get(2));
@@ -64,18 +89,19 @@ public class RegisterUserPage extends BaseTest {
 		click(confirmBtn);
 	}
 	
-	public boolean checkUserIsRegistered() {
+	public boolean checkUserIsLoggedOut() {
 		return isMobileElementDisplayed(registerBtn);
 		
 	}
 
-	public void userRegisteration(String mobile) {
-		if (checkUserIsRegistered()) {
+	public void userRegisteration(String mobile, String otp) {
+		if (checkUserIsLoggedOut()) {
 			try {
-				allowPermissions();
 				clickOnRegisterBtn();
 				enterNoToRegister(mobile);
 				clickOnContinueBtn();
+				enterOtp(otp);
+				clickOnVerifyBtn();
 				selectLanguages();
 				clickOnConfirmBtn();
 				
@@ -83,6 +109,12 @@ public class RegisterUserPage extends BaseTest {
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	public String getLoggedInNo() {
+		click(bottomTabs.get(1));
+		click(userImg);
+		return getText(loggedInNumber,"Logged in no. is: ");
 	}
 
 }

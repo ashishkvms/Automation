@@ -18,7 +18,7 @@ import org.testng.Reporter;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
-import com.app.BaseTest;
+import com.app.common.BaseTest;
 import com.app.reports.ExtentReport;
 import com.app.utils.TestUtils;
 

@@ -4,12 +4,10 @@
 		<listeners>
 			<listener class-name="com.app.listeners.TestListener" />
 		</listeners>
-		<!-- <parameter name="emulator" value="true" /> -->
 		<parameter name="platformName" value="Android" />
 		<parameter name="udid" value="3201c353b10a16ef" />
 		<parameter name="deviceName" value="SM20" />
 		<parameter name="systemPort" value="10000" />
-		<parameter name="chromeDriverPort" value="11000" />
 		<classes>
 			<class name="com.app.tests.RegisterUserTests"></class>
 			<class name="com.app.tests.HomePageTests"></class>
@@ -19,12 +17,10 @@
 		<listeners>
 			<listener class-name="com.app.listeners.TestListener" />
 		</listeners>
-		 <parameter name="emulator" value="true" />
 		<parameter name="platformName" value="Android" />
 		<parameter name="udid" value="954a5e469904" />
 		<parameter name="deviceName" value="Redmi Note 4" />
 		<parameter name="systemPort" value="11000" />
-		<parameter name="chromeDriverPort" value="11000" />
 		<classes>
 			<class name="com.app.tests.RegisterUserTests"></class>
 			<class name="com.app.tests.HomePageTests"></class>

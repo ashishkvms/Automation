@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.testng.Assert;
 
-import com.app.BaseTest;
+import com.app.common.BaseTest;
 import com.app.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
@@ -32,7 +32,9 @@ public class HomePage extends BaseTest{
 	
 	public void closeDrawer() {
 		try {
+			if(isMobileElementDisplayed(xStreamPremiumBtn)) {
 		dragElement(closeDrawer, xStreamPremiumBtn);
+			}
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
